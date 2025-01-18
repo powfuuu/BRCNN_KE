@@ -13,3 +13,8 @@ Source code for paper: Named Entity Recognition in Chinese Cyber Threat Intellig
 >> pip install -r requirements.txt
 ```
 
+## 3. Dataset
+
+- [CDTier](https://github.com/MuYu-z/CDTier/tree/main/data/Entity%20extraction)
+
+
