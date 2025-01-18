@@ -13,20 +13,10 @@ with open('../data/cdtier/unlabeled.json', 'r', encoding='utf-8') as f:
 
 print('unlabeled_data length:', len(unlabeled_data))
 
-with open('../predict_cdtier_entropy_restrain-2.json', 'r', encoding='utf-8') as f:
+with open('../predict_cdtier.json', 'r', encoding='utf-8') as f:
     predict2_data = json.load(f)
 
 
 print('predict_data length:', len(predict2_data))
 
-# with open('../predict_cdtier_0.95-2.json', 'r', encoding='utf-8') as f:
-#     predict2_data = json.load(f)
-#
-#
-# print('predict2_data length:', len(predict2_data))
 
-# with open('../max_entropy-5.json', 'r', encoding='utf-8') as f:
-#     max_entropy2_data = json.load(f)
-#
-#
-# print('max_entropy-5 length:', len(max_entropy2_data))

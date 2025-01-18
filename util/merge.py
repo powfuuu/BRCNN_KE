@@ -21,11 +21,9 @@ def merge_predictions_with_train(train_path, predictions_path):
 
 
 # 示例使用
-train_path = "../data/cdtier/total.json"
-predictions_path = "../data/cdtier/test.json"  # 假设生成的预测结果文件名为predictions.json
+train_path = "../data/cdtier/train.json"
+predictions_path = "../predict_cdtier.json"
 
 
-# train_path = "../predict_cdtier_0.98-5.json"
-# predictions_path = "../max_entropy-5.json"
 
 merge_predictions_with_train(train_path, predictions_path)

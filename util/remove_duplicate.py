@@ -22,13 +22,10 @@ def remove_pseudo_labeled_data(unlabeled_path, pseudo_labeled_path, output_path)
 
 # 文件路径
 unlabeled_path = '../data/cdtier/unlabeled.json'
-pseudo_labeled_path = '../predict_cdtier_entropy_restrain-2.json'
+pseudo_labeled_path = '../predict_cdtier.json'
 output_path = '../data/cdtier/unlabeled.json'
 
-# 文件路径
-# unlabeled_path = '../predict_cdtier_0.98-5.json'
-# pseudo_labeled_path = '../max_entropy-5.json'
-# output_path = '../predict_cdtier_0.98-5.json'
+
 
 # 执行过滤
 remove_pseudo_labeled_data(unlabeled_path, pseudo_labeled_path, output_path)

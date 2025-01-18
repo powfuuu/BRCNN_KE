@@ -257,7 +257,7 @@ if __name__ == '__main__':
 
     parser.add_argument('--dilation', type=str, help="e.g. 1,2,3")
 
-    parser.add_argument('--num_res_blocks', type=int, default=8)
+    parser.add_argument('--num_res_blocks', type=int, default=4)
 
     # parser.add_argument('--tagcn_hid_size', type=int, default=2048)
     # parser.add_argument('--dep_out_features', type=int, default=1024)
