@@ -1,6 +1,6 @@
-# Named Entity Recognition in Chinese Cyber Threat Intelligence Combining Bi-affine Residual Convolution and Knowledge Expansion
+# Named Entity Recognition in Chinese Cyber Threat Intelligence Combining Biaffine Residual Convolution and Knowledge Expansion
 
-Source code for paper: Named Entity Recognition in Chinese Cyber Threat Intelligence Combining Bi-affine Residual Convolution and Knowledge Expansion
+Source code for paper: Named Entity Recognition in Chinese Cyber Threat Intelligence Combining Biaffine Residual Convolution and Knowledge Expansion
 
 ## 1.Environments
 
